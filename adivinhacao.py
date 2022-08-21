@@ -27,4 +27,4 @@ for i in range(1, loop + 1):
         elif menor:
             print("ERROU!!! O CHUTE FOI MENOR QUE O NÚMERO SECRETO")
             print("VOCÊ TEM ", loop - i, " TENTATIVA(S)")
-print("FIM DE JOGO     ")
+print("FIM DE JOGO")

@@ -16,8 +16,8 @@ while continuar == 1:
             loop = int(input("Você digitou um número de tentativas menor que 1 ou "
                              "maior que 100, Digite um número de tentativas entre 1 e 100: "))
     else:
-        secreto = int(random.random() * 100)
-        loop = int(random.random() * 100)
+        secreto = int(random.randrange(1, 101))
+        loop = int(random.randrange(1, 20))
 
     for i in range(1, loop + 1):
         chute = int(input("Digite o seu número : "))

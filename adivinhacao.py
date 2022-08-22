@@ -17,7 +17,14 @@ while continuar == 1:
                              "maior que 100, Digite um número de tentativas entre 1 e 100: "))
     else:
         secreto = int(random.randrange(1, 101))
-        loop = int(random.randrange(1, 20))
+        print("Defina o nível de dificuldade")
+        nivel = int(input("(1) fácil (2) médio (3) difícil: "))
+        if nivel == 1:
+            loop = int(random.randrange(15, 30))
+        elif nivel == 2:
+            loop = int(random.randrange(8, 10))
+        else:
+            loop = int(random.randrange(1, 5))
 
     for i in range(1, loop + 1):
         chute = int(input("Digite o seu número : "))
